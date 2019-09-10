@@ -1,0 +1,18 @@
+uuid: 41f2df97-fd0e-4881-8e15-3fe078d63564
+langcode: fr
+status: true
+dependencies: {  }
+id: cache_yml_activation
+label: 'Cache YML activation'
+description: ' checking the activation of yml caches'
+category: Performance
+plugin_id: cache_yml_activation
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: exceeds
+  warning: null
+  critical: 0

@@ -1,0 +1,26 @@
+uuid: ee706622-3bc2-4376-90fd-1bed07c7c921
+langcode: fr
+status: true
+dependencies: {  }
+id: number_of_blocks
+label: 'Number of blocks'
+description: 'Number of blocks present on the site'
+category: Performance
+plugin_id: database_aggregator
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings:
+  table: config
+  history_status: false
+  conditions:
+    -
+      field: name
+      operator: LIKE
+      value: block.block%
+  verbose_fields: {  }
+thresholds:
+  type: exceeds
+  warning: 100
+  critical: 200

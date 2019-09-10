@@ -1,0 +1,26 @@
+uuid: 693d88ea-4ece-4a7d-ae11-d7abb08084ca
+langcode: fr
+status: true
+dependencies: {  }
+id: number_of_views
+label: 'Number of views'
+description: ' Number of views present in the site'
+category: Other
+plugin_id: database_aggregator
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings:
+  table: config
+  history_status: false
+  conditions:
+    -
+      field: name
+      operator: LIKE
+      value: views.view%
+  verbose_fields: {  }
+thresholds:
+  type: exceeds
+  warning: 50
+  critical: 100

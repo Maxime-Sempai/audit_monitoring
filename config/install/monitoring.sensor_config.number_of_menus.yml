@@ -1,0 +1,26 @@
+uuid: c040a7f6-85c2-4541-86cb-ff587788509c
+langcode: fr
+status: true
+dependencies: {  }
+id: number_of_menus
+label: 'number of menus'
+description: 'Number of menus present on the site'
+category: Other
+plugin_id: database_aggregator
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings:
+  table: config
+  history_status: false
+  conditions:
+    -
+      field: name
+      operator: LIKE
+      value: system.menu%
+  verbose_fields: {  }
+thresholds:
+  type: exceeds
+  warning: 10
+  critical: 20

@@ -1,0 +1,42 @@
+uuid: e0a9dd93-c5f8-44cb-80e8-58f3779d333e
+langcode: fr
+status: true
+dependencies: {  }
+id: enabled_modules_dev
+label: 'Enabled modules dev'
+description: 'list the enabled modules and verify that the base modules are installed in dev environment'
+category: Performance
+plugin_id: list_of_modules
+result_class: null
+value_label: ''
+value_type: no_value
+caching_time: 86400
+settings:
+  common_modules:
+    maillog: maillog
+    honeypot: honeypot
+    metatag: metatag
+    redirect: redirect
+    pathauto: pathauto
+    devel: devel
+    field_ui: field_ui
+    views_ui: views_ui
+    menu_ui: menu_ui
+    dblog: dblog
+    shortcut: shortcut
+    help: help
+    admin_toolbar: admin_toolbar
+    admin_toolbar_tools: admin_toolbar_tools
+    coffee: coffee
+    environment_indicator: environment_indicator
+    ultimate_cron: ultimate_cron
+    color: 0
+    comment: 0
+    tour: 0
+    automated_cron: 0
+  deployment_modules:
+    entity_share: entity_share
+    fixed_block_content: fixed_block_content
+    default_content: 0
+thresholds:
+  type: none

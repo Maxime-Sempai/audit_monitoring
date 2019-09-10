@@ -1,0 +1,16 @@
+uuid: 29aa3834-9904-4dcb-8f6c-b647fa210bcc
+langcode: fr
+status: true
+dependencies: {  }
+id: update_permissions
+label: 'Update permissions'
+description: 'check permissions on update.php file'
+category: Security
+plugin_id: update_free_access
+result_class: null
+value_label: ''
+value_type: bool
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: none

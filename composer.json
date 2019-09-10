@@ -1,0 +1,10 @@
+{
+    "name": "drupal/audit_monitoring",
+    "type": "drupal-module",
+    "description": "Audit monitoring is used to check the status of a Drupal ste as part of an audit. This module works with monitoring.",
+    "homepage": "http://drupal.org/project/audit_monitoring",
+    "require": {
+        "drupal/core": "^8.7",
+        "drupal/monitoring": "^1.7"
+    }
+}

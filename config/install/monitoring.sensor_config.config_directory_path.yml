@@ -1,0 +1,14 @@
+uuid: 34d2a2cb-3a6e-47c1-ae7c-d77b0f1edc78
+langcode: fr
+status: true
+id: config_directory_path
+label: 'Config directory path'
+description: 'Check if the config directory is outside the site directory'
+category: Security
+plugin_id: config_directory_path
+result_class: null
+value_label: ''
+value_type: bool
+caching_time: 86400
+thresholds:
+  type: none

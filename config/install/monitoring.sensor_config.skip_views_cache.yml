@@ -1,0 +1,16 @@
+uuid: 0109344b-e539-4a73-83bd-4f29596ab548
+langcode: fr
+status: true
+dependencies: {  }
+id: skip_views_cache
+label: 'Skip views cache'
+description: 'Check if the option ''Disable caching of Views data'' is disabled'
+category: Performance
+plugin_id: skip_views_cache
+result_class: null
+value_label: ''
+value_type: bool
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: none

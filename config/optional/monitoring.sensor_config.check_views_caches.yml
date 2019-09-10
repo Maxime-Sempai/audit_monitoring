@@ -1,0 +1,19 @@
+uuid: 3da685bc-c9b3-49e3-adb4-325845750b98
+langcode: fr
+status: true
+dependencies:
+  module:
+    - views
+id: check_views_caches
+label: 'Check Views caches'
+description: 'Check Views caches sensor'
+category: Performance
+plugin_id: views_caches_sensor
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+thresholds:
+  type: exceeds
+  warning: 4
+  critical: 5

@@ -1,0 +1,16 @@
+uuid: 261bc032-5997-46f9-b87d-9f3e70a5bc31
+langcode: fr
+status: true
+dependencies: {  }
+id: disabled_views_debugging
+label: 'Disabled Views debugging'
+description: 'Check if debugging views are disabled'
+category: Performance
+plugin_id: disabled_views_debugging
+result_class: null
+value_label: ''
+value_type: bool
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: none

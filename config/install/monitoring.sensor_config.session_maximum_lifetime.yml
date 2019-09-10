@@ -1,0 +1,18 @@
+uuid: 951c3643-32e7-45dd-8ee5-5691e7640b2f
+langcode: fr
+status: true
+dependencies: {  }
+id: session_maximum_lifetime
+label: 'Session maximum lifetime'
+description: 'check the maximum lifetime of the session'
+category: Performance
+plugin_id: session_lifetime
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: exceeds
+  warning: null
+  critical: 0

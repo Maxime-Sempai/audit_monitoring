@@ -1,0 +1,41 @@
+uuid: 8f5bf95d-bbee-4888-97ce-36d743fd261a
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SD3xbTn4tE_Yf0JcnGtpJdbG6MGO1OtmTmyX0Lk-Gpo
+id: username_security
+label: 'Username security'
+description: 'Checks the security of user names.'
+category: Security
+plugin_id: username_security
+result_class: null
+value_label: ''
+value_type: bool
+caching_time: 86400
+settings:
+  common_username:
+    123456: '123456'
+    111111: '111111'
+    abc123: abc123
+    dir: dir
+    expert: expert
+    home: home
+    qwerty: qwerty
+    test: test
+    azerty: azerty
+    utilisateur: utilisateur
+    utilisateur1: utilisateur1
+    webmaster: webmaster
+    contact: contact
+    entreprise: entreprise
+    administrateur: administrateur
+    admin: admin
+    administrator: administrator
+    root: root
+    adm: adm
+    manager: manager
+    system: system
+    superuser: superuser
+thresholds:
+  type: none

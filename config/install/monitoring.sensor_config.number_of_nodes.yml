@@ -1,0 +1,26 @@
+uuid: f2c762c1-03ff-4baf-b456-6a698a4af1d0
+langcode: fr
+status: true
+dependencies: {  }
+id: number_of_nodes
+label: 'Number of nodes'
+description: 'Number of nodes present on the site'
+category: Performance
+plugin_id: database_aggregator
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings:
+  table: config
+  history_status: false
+  conditions:
+    -
+      field: name
+      operator: LIKE
+      value: field.field.node%
+  verbose_fields: {  }
+thresholds:
+  type: exceeds
+  warning: 30000
+  critical: null

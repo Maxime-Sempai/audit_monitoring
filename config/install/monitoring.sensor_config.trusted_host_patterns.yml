@@ -1,0 +1,16 @@
+uuid: de49ab54-4c68-467e-8540-ae662389e918
+langcode: fr
+status: true
+dependencies: {  }
+id: trusted_host_patterns
+label: trusted_host_patterns
+description: 'Check the config of trusted_host_patterns'
+category: Security
+plugin_id: trusted_host_pattern
+result_class: null
+value_label: ''
+value_type: bool
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: none

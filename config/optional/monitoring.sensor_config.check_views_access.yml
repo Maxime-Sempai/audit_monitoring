@@ -1,0 +1,17 @@
+uuid: 5be3d41d-dc86-4750-85cd-2422fb7fd9f6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - views
+id: check_views_access
+label: 'Check views access'
+description: 'Check whether Views access are secured.'
+category: Security
+plugin_id: check_views_access
+result_class: null
+value_label: 'unsecured view(s)'
+value_type: number
+caching_time: 86400
+thresholds:
+  type: none

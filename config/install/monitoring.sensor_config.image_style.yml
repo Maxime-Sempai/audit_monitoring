@@ -1,0 +1,18 @@
+uuid: 667a06f9-a7b3-47c6-ae2a-c56e132ed5a2
+langcode: fr
+status: true
+dependencies: {  }
+id: image_style
+label: 'Image Style'
+description: ' check if the site images have been reworked'
+category: Performance
+plugin_id: image_style_sensor
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: exceeds
+  warning: 0
+  critical: 5

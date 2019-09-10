@@ -1,0 +1,16 @@
+uuid: b34fe58f-4478-474b-9741-c746b7d4dde9
+langcode: fr
+status: true
+dependencies: {  }
+id: private_file_directory
+label: 'Private File Directory'
+description: ' checks if the private files are outside the root of the site'
+category: Security
+plugin_id: private_file_directory
+result_class: null
+value_label: ''
+value_type: bool
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: none

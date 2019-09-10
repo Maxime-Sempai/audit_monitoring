@@ -1,0 +1,18 @@
+uuid: c882887d-7f9f-448c-968a-9fe4a69acfb2
+langcode: fr
+status: true
+dependencies: {  }
+id: restrict_access_by_role
+label: 'Restrict access by role'
+description: 'check permissions: restrict access: TRUE for each role except the administrator'
+category: Security
+plugin_id: restrict_access
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: exceeds
+  warning: null
+  critical: 0

@@ -1,0 +1,18 @@
+uuid: 1aa96a8c-c2ba-4eeb-be7c-033aa3a5f67f
+langcode: fr
+status: true
+dependencies: {  }
+id: html_filter_by_role
+label: 'HTML filter by role'
+description: 'checks for HTML permissions by role'
+category: Security
+plugin_id: role_configuration
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: exceeds
+  warning: 0
+  critical: 1

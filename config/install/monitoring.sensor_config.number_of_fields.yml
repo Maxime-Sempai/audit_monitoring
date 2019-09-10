@@ -1,0 +1,26 @@
+uuid: bff1d1f8-3cce-4d2a-bf52-50e84ce2fb9a
+langcode: fr
+status: true
+dependencies: {  }
+id: number_of_fields
+label: 'Number of fields'
+description: 'Number of fields present on the site'
+category: Performance
+plugin_id: database_aggregator
+result_class: null
+value_label: ''
+value_type: number
+caching_time: 86400
+settings:
+  table: config
+  history_status: false
+  conditions:
+    -
+      field: name
+      operator: LIKE
+      value: field.field%
+  verbose_fields: {  }
+thresholds:
+  type: exceeds
+  warning: 150
+  critical: 300

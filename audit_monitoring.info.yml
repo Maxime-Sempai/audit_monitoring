@@ -1,0 +1,7 @@
+name: Audit Monitoring
+type: module
+description: Audit monitoring is used to check the status of a Drupal site as part of an audit. This module works with monitoring.
+package: Monitoring
+core: 8.x
+dependencies:
+  - monitoring:monitoring
