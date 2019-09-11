@@ -1,0 +1,16 @@
+uuid: c53c547d-b76c-4a15-bd50-a6c8b7756bf1
+langcode: fr
+status: false
+dependencies: {  }
+id: maillog_configuration
+label: 'Maillog configuration'
+description: 'Check if maillog is installed and configurate on pre-prod environment'
+category: Other
+plugin_id: maillog_config
+result_class: null
+value_label: ''
+value_type: no_value
+caching_time: 86400
+settings: {  }
+thresholds:
+  type: none
